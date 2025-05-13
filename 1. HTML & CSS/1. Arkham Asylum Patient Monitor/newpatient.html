@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arkham Asylum Patient Monitor</title>
+
+    <link rel="stylesheet" href="./styling/css/styles.css" />
+  </head>
+  <body>
+    <!-- Opdracht 1 hieronder typen -->
+    <header>
+      <img
+        src="C:\Users\thijm\iCloudDrive\Coding\Spectrum\Opdrachten\1. HTML & CSS\1. Arkham Asylum Patient Monitor\assets\arkham_logo.png"
+      />
+      <h1>Arkham Asylum Patient Monitor</h1>
+    </header>
+    <!-- Opdracht 1 hierboven typen -->
+
+    <!-- Opdracht 3 hieronder typen -->
+    <nav>
+      <h2>Main Menu</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <!-- Opdracht 3 hierboven typen -->
+
+    <main>
+      <h2>New patient</h2>
+      <!-- Opdracht 5 hieronder typen -->
+      <form>
+        <input
+          type="text"
+          id="alias"
+          name="alias"
+          placeholder="Alias"
+          required
+        />
+        <input
+          type="text"
+          id="realname"
+          name="realname"
+          placeholder="Real name"
+          required
+        />
+        <input type="number" id="age" name="age" placeholder="Age" required />
+        <select name="Choose Gender" id="gender">
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="non-binary">Non-binary</option>
+          <option value="other">Other</option>
+        </select>
+        <input
+          type="number"
+          id="height"
+          name="height"
+          placeholder="Height"
+          required
+        />
+        <input
+          type="number"
+          id="weight"
+          name="weight"
+          placeholder="Weight"
+          required
+        />
+        <input
+          type="text"
+          id="condition"
+          name="condition"
+          placeholder="Condition"
+          required
+        />
+        <input
+          type="date"
+          id="admissiondate"
+          name="admissiondate"
+          placeholder="Admission date"
+          required
+        />
+        <input
+          type="text"
+          id="cellblock"
+          name="cellblock"
+          placeholder="Cellblock"
+          required
+        />
+        <input
+          type="number"
+          id="cellnr"
+          name="cellnr"
+          placeholder="Cell nr."
+          required
+        />
+        <button type="submit">Save new patient</button>
+      </form>
+      <!-- Opdracht 5 hierboven typen -->
+    </main>
+  </body>
+</html>

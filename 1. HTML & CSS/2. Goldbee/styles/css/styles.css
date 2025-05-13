@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+button {
+  font-size: 18px;
+}
+
+footer {
+  font-size: 12px;
+}
+
+body {
+  font-family: "sans-serif";
+  color: #000;
+  padding: 0px 10px 20px;
+  margin: auto 0px 20px;
+  width: 1024px;
+}
+
+a:hover {
+  color: #fbad01;
+}
+
+a:active {
+  color: #fbac0100;
+}
+
+button:hover {
+  background-color: #fbad01;
+  color: #000000;
+}
+
+button:active {
+  background-color: #fbac0100;
+  color: #00000000;
+}
