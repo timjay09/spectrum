@@ -42,56 +42,38 @@ button:active {
   color: #00000000;
 }
 
-/* reset the list */
-header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.logo {
+  display: flex; /* activeert Flexbox */
+  justify-content: center; /* horizontaal centreren */
+  align-items: center; /* verticaal centreren */
+  /* voorbeelden van andere opties:
+     justify-content: flex-start | flex-end | space-between | space-around;
+     align-items: flex-start | flex-end | stretch | baseline;
+  */
+  height: 200px; /* enkel nodig om verticaal uitlijnen te demonstreren */
+  border: 1px solid #ccc;
 }
 
-/* lay out header as a flex container */
-header {
-  display: flex;
-  align-items: center; /* vertically center logo and links */
-  justify-content: space-between; /* push logo to left, nav to right */
-  max-width: 1024px; /* optional: constrain to a nice width */
-  margin: 0 auto; /* center header on page */
-  padding: 1rem 2rem; /* give some breathing room */
-  background: #fff; /* white background */
+.navigation {
+  display: flex; /* activeert Flexbox */
+  justify-content: center; /* horizontaal centreren */
+  align-items: center; /* verticaal centreren */
+  /* voorbeelden van andere opties:
+     justify-content: flex-start | flex-end | space-between | space-around;
+     align-items: flex-start | flex-end | stretch | baseline;
+  */
+  height: 200px; /* enkel nodig om verticaal uitlijnen te demonstreren */
+  border: 1px solid #ccc;
 }
 
-/* limit logo height so it sits nicely */
-header > img {
-  height: 50px; /* tweak to taste */
-  width: auto;
-}
-
-/* lay out the links horizontally */
-header nav ul {
-  display: flex;
-}
-
-/* space out each menu item */
-header nav li + li {
-  margin-left: 2rem; /* adjust gap */
-}
-
-/* style the menu links */
-header nav a {
-  text-decoration: none;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  color: #000; /* or whatever dark color you prefer */
-  transition: color 0.2s;
-}
-
-/* optional hover/focus state */
-header nav a:hover,
-header nav a:focus {
-  color: #ffb919;
-}
-
-header nav a:active {
-  color: #fff;
+.header {
+  display: flex; /* activeert Flexbox */
+  justify-content: center; /* horizontaal centreren */
+  align-items: center; /* verticaal centreren */
+  /* voorbeelden van andere opties:
+     justify-content: flex-start | flex-end | space-between | space-around;
+     align-items: flex-start | flex-end | stretch | baseline;
+  */
+  height: 200px; /* enkel nodig om verticaal uitlijnen te demonstreren */
+  border: 1px solid #ccc;
 }
